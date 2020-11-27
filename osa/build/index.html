@@ -1,0 +1,27 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Ottawa Skateboarding Association</title>
+    </head>
+
+    <body>
+
+
+        <div id="osa-splash"></div>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="vendors/lottie/lottie.js" type="text/javascript"></script>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('osa-splash'), // Required
+                path: 'assets/lottie/osa-splash.json', // Required
+                renderer: 'svg/canvas/html', // Required
+                loop: false, // Optional
+                autoplay: true, // Optional
+            })
+        </script>
+    </body>
+</html>
