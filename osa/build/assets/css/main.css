@@ -206,13 +206,13 @@ img {
     z-index: 6;
 }
 
-.menu-icon {
+.menu-toggle .menu-icon {
     position: relative;
     width: 40px;
     height: 40px;
 }
 
-.menu-icon span {
+.menu-toggle .menu-icon span {
     position: absolute;
     display: block;
     height: 3px;
@@ -228,13 +228,13 @@ img {
     transition: all 0.15s ease-in-out;
 }
 
-.menu-icon span:nth-of-type(1) {
+.menu-toggle .menu-icon span:nth-of-type(1) {
     top: 0;
     left: 0;
     right: 0;
 }
 
-.menu-icon span:nth-of-type(2) {
+.menu-toggle .menu-icon span:nth-of-type(2) {
     position: absolute;
     left: 0;
     right: 0;
@@ -250,7 +250,7 @@ img {
     transform-origin: center;
 }
 
-.menu-icon span:nth-of-type(3) {
+.menu-toggle .menu-icon span:nth-of-type(3) {
     position: absolute;
     left: 0;
     right: 0;
@@ -266,26 +266,17 @@ img {
     transform-origin: center;
 }
 
-.menu-icon span:nth-of-type(4) {
+.menu-toggle .menu-icon span:nth-of-type(4) {
     top: 0;
     left: 0;
     right: 0;
 }
 
-.menu-toggle.toggled .menu-icon span {
-
-    -webkit-transition: all 0.15s ease-in-out;
-    -khtml-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-}
-
-.menu-icon span:nth-of-type(1) {
+.menu-toggle.toggled .menu-icon span:nth-of-type(1) {
     opacity: 0;
 }
 
-.menu-icon span:nth-of-type(2) {
+.menu-toggle.toggled .menu-icon span:nth-of-type(2) {
     -webkit-transform: translateY(-50%) rotate(45deg);
     -moz-transform: translateY(-50%) rotate(45deg);
     -ms-transform: translateY(-50%) rotate(45deg);
@@ -293,7 +284,7 @@ img {
     transform: translateY(-50%) rotate(45deg);
 }
 
-.menu-icon span:nth-of-type(3) {
+.menu-toggle.toggled .menu-icon span:nth-of-type(3) {
     -webkit-transform: translateY(-50%) rotate(-45deg);
     -moz-transform: translateY(-50%) rotate(-45deg);
     -ms-transform: translateY(-50%) rotate(-45deg);
@@ -301,7 +292,7 @@ img {
     transform: translateY(-50%) rotate(-45deg);
 }
 
-.menu-icon span:nth-of-type(4) {
+.menu-toggle.toggled .menu-icon span:nth-of-type(4) {
     opacity: 0;
 }
 
