@@ -105,6 +105,19 @@ img {
 .navigation-list ul li {
     padding: 10px 0;
     list-style: none;
+    opacity: 0;
+
+    -webkit-transform: translateY(-25px);
+    -khtml-transform: translateY(-25px);
+    -moz-transform: translateY(-25px);
+    -ms-transform: translateY(-25px);
+    transform: translateY(-25px);
+
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 .navigation-list ul li,
@@ -146,7 +159,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    width: calc(100% - 210px);
+    width: calc(100% - 200px);
     height: 100%;
     top: 0;
     left: 0;
@@ -162,20 +175,20 @@ img {
     top: 0;
     left: 0;
 
-    -webkit-transition: all 0.15s ease-in-out;
-    -khtml-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -khtml-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .landing-border.loaded {
     border-width: 25px;
     border-right: none;
 
-    -webkit-transition: all 0.15s ease-in-out;
-    -khtml-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -khtml-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
