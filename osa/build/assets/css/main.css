@@ -392,7 +392,7 @@ body.home .landing-image {
 }
 
 
-@media only screen and (max-width: 740px) {
+@media (max-width: 740px) {
 
     .side-panel {
         max-width: 135px;
