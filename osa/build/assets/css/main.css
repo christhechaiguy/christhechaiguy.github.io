@@ -218,4 +218,13 @@ img {
         border-right: 25px solid #ffffff;
     }
 
+
+    .navigation-list.mobile-only {
+        padding: 25px;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
 }
