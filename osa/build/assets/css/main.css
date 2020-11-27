@@ -8,6 +8,14 @@ img {
     display: block;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    flex: 1;
+}
+
 .splash-wrapper {
     width: 85%;
     max-width: 535px;
@@ -46,10 +54,13 @@ img {
 }
 
 .side-panel {
-    position: relative;
+    position: absolute;
+    max-width: 200px;
+    right: 0;
     background-color: #ffffff;
     padding: 25px;
     
+
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
@@ -72,6 +83,7 @@ img {
 .navigation-list ul {
     display: block;
     padding: 0;
+    margin: 0;
 }
 
 .navigation-list ul li {
@@ -109,4 +121,28 @@ img {
     -moz-transition: all 0.15s ease-in-out;
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
+}
+
+
+.landing-image {
+    background-image: url(../images/landing-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.landing-border {
+    position: absolute;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }

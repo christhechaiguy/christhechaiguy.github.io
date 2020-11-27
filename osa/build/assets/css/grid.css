@@ -1,0 +1,149 @@
+/* christhechaiguy */
+
+.grid {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid .grid {
+    width: 100%;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+    position: relative;
+}
+
+.grid-1 {
+	width: 8.33%;
+	width: calc( ( 100% / 12 ) * 1 );
+    float: left;
+}
+
+.grid-2 {
+	width: 16.67%;
+	width: calc( ( 100% / 12 ) * 2 );
+    float: left;
+}
+
+.grid-3 {
+    width: 25%;
+    float: left;
+}
+
+.grid-4 {
+	width: 33.33%;
+	width: calc( ( 100% / 12 ) * 4 );
+    float: left;
+}
+
+.grid-5 {
+	width: 41.67%;
+	width: calc( ( 100% / 12 ) * 5 );
+    float: left;
+}
+
+.grid-6 {
+    width: 50%;
+    float: left;
+}
+
+.grid-7 {
+	width: 58.33%;
+	width: calc( ( 100% / 12 ) * 7 );
+    float: left;
+}
+
+.grid-8 {
+	width: 66.67%;
+	width: calc( ( 100% / 12 ) * 8 );
+    float: left;
+}
+
+.grid-9 {
+    width: 75%;
+    float: left;
+}
+
+.grid-10 {
+	width: 83.33%;
+	width: calc( ( 100% / 12 ) * 10 );
+    float: left;
+}
+
+.grid-11 {
+	width: 91.67%;
+	width: calc( ( 100% / 12 ) * 11 );
+    float: left;
+}
+
+.grid-12 {
+    width: 100%;
+}
+
+.flex .grid-1,
+.flex .grid-2,
+.flex .grid-3,
+.flex .grid-4,
+.flex .grid-5,
+.flex .grid-6,
+.flex .grid-7,
+.flex .grid-8,
+.flex .grid-9,
+.flex .grid-10,
+.flex .grid-11,
+.flex .grid-12 {
+    float: none;
+}
+
+.desktop-only {
+	display: block;
+}
+
+.mobile-only {
+	display: none;
+}
+
+
+@media (max-width: 900px) {
+
+    .grid {
+        width: 100%;
+    }
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5,
+    .grid-6,
+    .grid-7,
+    .grid-8,
+    .grid-9,
+    .grid-10,
+    .grid-11,
+    .grid-12 {
+        width: 100%;
+        float: none;
+    }
+
+	.desktop-only {
+		display: none !important;
+	}
+	
+	.mobile-only {
+		display: block !important;
+	}
+
+}
