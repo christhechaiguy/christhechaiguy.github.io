@@ -177,14 +177,20 @@ p {
 }
 
 
+.landing-image-container {
+    position: relative;
+    width: calc(100% - 200px);
+}
+
+
 .landing-image {
     background-image: url(../images/landing-image-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    width: calc(100% - 200px);
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
 }
