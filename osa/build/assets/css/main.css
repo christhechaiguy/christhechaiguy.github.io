@@ -184,11 +184,13 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     width: calc(100% - 200px);
     height: 100vh;
     top: 0;
     left: 0;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
 }
 
 .landing-border {
