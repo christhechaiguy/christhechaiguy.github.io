@@ -106,6 +106,9 @@ img {
     padding: 10px 0;
     list-style: none;
     opacity: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 
     -webkit-transform: translateY(-25px);
     -khtml-transform: translateY(-25px);
@@ -113,11 +116,11 @@ img {
     -ms-transform: translateY(-25px);
     transform: translateY(-25px);
 
-    -webkit-transition: all 0.15s ease-in-out;
-    -khtml-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -khtml-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .navigation-list ul li a {
