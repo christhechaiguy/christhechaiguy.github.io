@@ -226,12 +226,12 @@ img {
 }
 
 .menu-icon span:first-of-type {
-    margin-top: 0;
+    margin: 0;
     transform-origin: top right;
 }
 
 .menu-icon span:last-of-type {
-    margin-bottom: 0;
+    margin: 0;
     transform-origin: bottom right;
 }
 
@@ -246,12 +246,12 @@ img {
 }
 
 .menu-toggle.toggled .menu-icon span:first-of-type {
-    transform: rotate(-40deg);
+    transform: rotate(-45deg);
     opacity: 1;
 }
 
 .menu-toggle.toggled .menu-icon span:last-of-type {
-    transform: rotate(40deg);
+    transform: rotate(45deg);
     opacity: 1;
 }
 
