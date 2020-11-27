@@ -16,4 +16,13 @@ $( window ).on( "load", function() {
     setTimeout(function() {
         $('.splash-wrapper').css({'opacity':'0'});
     }, 3000)
+
+    setTimeout(function() {
+        $('.main-container').css({'opacity':'1'});
+    }, 3250)
+
+    setTimeout(function() {
+        $('.landing-border').addClass('loaded');
+    }, 3500)
+
 });
