@@ -4,6 +4,15 @@ html, body {
     padding: 0;
 }
 
+html,
+html * {
+    -webkit-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 img {
     display: block;
 }
@@ -162,6 +171,7 @@ img {
 
 .landing-border.loaded {
     border-width: 25px;
+    border-right: none;
 
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
