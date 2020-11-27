@@ -130,7 +130,10 @@ img {
     font-weight: 400;
     font-size: 16px;
     text-align: right;
-    opacity: 0.65;
+    opacity: 1;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
 
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
@@ -139,14 +142,10 @@ img {
     transition: all 0.15s ease-in-out;
 }
 
-.navigation-list ul li:hover,
-.navigation-list ul li:active,
-.navigation-list ul li:focus,
-
-.navigation-list ul li:hover a,
-.navigation-list ul li:active a,
-.navigation-list ul li:focus  {
-    opacity: 1;
+.navigation-list ul li a:hover,
+.navigation-list ul li a:active,
+.navigation-list ul li a:focus  {
+    border-color: #000000;
 
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
