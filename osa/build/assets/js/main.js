@@ -9,6 +9,17 @@ $(function() {
         path: 'assets/lottie/osa-splash.json' // the path to the animation json
     });
 
+
+    $mobileMenuToggled = false;
+
+    $('.menu-toggle').click(function() {
+        if ( $mobileMenuToggled == false ) {
+            $('.navigation-container').addClass('toggled');
+        } else {
+            $('.navigation-container').removeClass('toggled');
+        }
+    });
+
 });
 
 
@@ -29,7 +40,7 @@ $( window ).on( "load", function() {
 
 
     setTimeout(function() {
-        var duration = 250;
+        var duration = 150;
         $('.navigation-list ul li').each(function(i) {
             var $item = $(this);
             setTimeout(function() {
