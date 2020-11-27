@@ -220,6 +220,10 @@ img {
     margin-top: 0;
 }
 
+.menu-icon span:last-of-type {
+    margin-bottom: 0;
+}
+
 
 
 
