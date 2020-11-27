@@ -4,6 +4,10 @@ html, body {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 .splash-wrapper {
     width: 85%;
     max-width: 535px;
@@ -41,27 +45,38 @@ html, body {
     padding: 0;
 }
 
+.side-panel {
+    position: relative;
+    background-color: #ffffff;
+    padding: 25px;
+    
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.side-panel #logo {
+    width: 100%;
+    max-width: 155px;
+}
+
 .navigation-list {
-    position: absolute;
-    padding: 0;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 15px;
+    position: relative;
+    padding: 25px 0;
+    margin: 0;
     display: block;
-    width: 90%;
 }
 
 .navigation-list ul {
-    display: flex;
+    display: block;
     padding: 0;
 }
 
 .navigation-list ul li {
-    flex: 1;
-    padding: 0 10px;
+    padding: 10px 0;
     list-style: none;
-    text-align: center;
 }
 
 .navigation-list ul li,
@@ -70,7 +85,7 @@ html, body {
     color: #000000;
     font-weight: 400;
     font-size: 16px;
-    text-align: center;
+    text-align: right;
     opacity: 0.65;
 
     -webkit-transition: all 0.15s ease-in-out;
