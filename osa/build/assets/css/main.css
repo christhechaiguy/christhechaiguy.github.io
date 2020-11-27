@@ -220,11 +220,23 @@ img {
 
 .menu-icon span:first-of-type {
     margin-top: 0;
+    transform-origin: top left;
 }
 
 .menu-icon span:last-of-type {
     margin-bottom: 0;
+    transform-origin: bottom left;
 }
+
+
+.menu-toggle.toggled .menu-icon span:first-of-type {
+    transform: rotate(45deg);
+}
+
+.menu-toggle.toggled .menu-icon span:last-of-type {
+    transform: rotate(-45deg);
+}
+
 
 .navigation-container {
     position: absolute;
