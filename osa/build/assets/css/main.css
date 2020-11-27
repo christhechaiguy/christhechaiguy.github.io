@@ -354,11 +354,11 @@ img {
 
 
     .navigation-container.mobile-only .navigation-list {
-        padding: 25px;
         background-color: #ffffff;
         position: absolute;
-        bottom: 0;
-        left: 0;
+        top: 0;
+        right: 0;
+        padding: 0;
     }
     
     .navigation-container.mobile-only .navigation-list ul {
@@ -368,6 +368,13 @@ img {
     .navigation-container.mobile-only .navigation-list ul li a {
         display: inline-block;
         padding: 5px 0;
+    }
+
+    .navigation-container.mobile-only .navigation-list ul li.active a,
+    .navigation-container.mobile-only .navigation-list ul li a:hover,
+    .navigation-container.mobile-only .navigation-list ul li a:active,
+    .navigation-container.mobile-only .navigation-list ul li a:focus  {
+        padding: 5px 10px;
     }
 
 }
