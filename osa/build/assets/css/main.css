@@ -366,6 +366,7 @@ p {
 .content-container {
     padding: 25px;
     padding-bottom: 85px;
+    width: calc(100% - 200px);
 }
 
 .content-container p {
@@ -385,6 +386,10 @@ p {
     }
 
     .landing-image {
+        width: 100%;
+    }
+
+    .content-container {
         width: 100%;
     }
 
