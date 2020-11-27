@@ -207,14 +207,17 @@ img {
 }
 
 .menu-icon {
+    position: relative;
     width: 40px;
+    height: 40px;
 }
 
 .menu-icon span {
+    position: absolute;
     display: block;
     height: 3px;
     width: 100%;
-    margin: 9px 0;
+    /* margin: 11px 0; */
     background-color: #000000;
     opacity: 1;
 
@@ -225,18 +228,51 @@ img {
     transition: all 0.15s ease-in-out;
 }
 
-.menu-icon span:first-of-type {
-    margin: 0;
-    transform-origin: top right;
+.menu-icon span:nth-of-type(1) {
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-.menu-icon span:last-of-type {
-    margin: 0;
-    transform-origin: bottom right;
+.menu-icon span:nth-of-type(2) {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    transform-origin: center;
+}
+
+.menu-icon span:nth-of-type(3) {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    transform-origin: center;
+}
+
+.menu-icon span:nth-of-type(4) {
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .menu-toggle.toggled .menu-icon span {
-    opacity: 0;
 
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
@@ -245,14 +281,28 @@ img {
     transition: all 0.15s ease-in-out;
 }
 
-.menu-toggle.toggled .menu-icon span:first-of-type {
-    transform: rotate(-45deg);
-    opacity: 1;
+.menu-icon span:nth-of-type(1) {
+    opacity: 0;
 }
 
-.menu-toggle.toggled .menu-icon span:last-of-type {
-    transform: rotate(45deg);
-    opacity: 1;
+.menu-icon span:nth-of-type(2) {
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -moz-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
+    -o-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.menu-icon span:nth-of-type(3) {
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    -moz-transform: translateY(-50%) rotate(-45deg);
+    -ms-transform: translateY(-50%) rotate(-45deg);
+    -o-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.menu-icon span:nth-of-type(4) {
+    opacity: 0;
 }
 
 
