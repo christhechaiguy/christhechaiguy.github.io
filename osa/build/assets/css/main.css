@@ -70,7 +70,7 @@ img {
 }
 
 .side-panel {
-    position: absolute;
+    position: fixed;
     max-width: 200px;
     right: 0;
     background-color: #ffffff;
@@ -198,7 +198,7 @@ img {
 
 .menu-toggle {
     padding: 25px; 
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     bottom: 0;
     right: 0;
@@ -303,7 +303,7 @@ img {
 
 
 .navigation-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
