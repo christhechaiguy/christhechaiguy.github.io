@@ -289,7 +289,7 @@ img {
 
 .menu-toggle.toggled .menu-icon span:nth-of-type(3) {
     opacity: 1;
-    
+
     -webkit-transform: translateY(-50%) rotate(-45deg);
     -moz-transform: translateY(-50%) rotate(-45deg);
     -ms-transform: translateY(-50%) rotate(-45deg);
@@ -353,12 +353,21 @@ img {
     }
 
 
-    .navigation-list.mobile-only {
+    .navigation-container.mobile-only .navigation-list {
         padding: 25px;
         background-color: #ffffff;
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+    
+    .navigation-container.mobile-only .navigation-list ul {
+        padding: 25px;
+    }
+    
+    .navigation-container.mobile-only .navigation-list ul li a {
+        display: inline-block;
+        padding: 5px 0;
     }
 
 }
