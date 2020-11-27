@@ -61,8 +61,37 @@ html, body {
     flex: 1;
     padding: 0 10px;
     list-style: none;
-    color: #000000;
+    text-align: center;
+}
+
+.navigation-list ul li,
+.navigation-list ul li a {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    color: #000000;
+    font-weight: 400;
     font-size: 16px;
+    text-align: center;
+    opacity: 0.65;
+
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.navigation-list ul li:hover,
+.navigation-list ul li:active,
+.navigation-list ul li:focus,
+
+.navigation-list ul li:hover a,
+.navigation-list ul li:active a,
+.navigation-list ul li:focus  {
+    opacity: 1;
+
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
