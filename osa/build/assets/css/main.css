@@ -332,6 +332,7 @@ p {
     background-color: #ffffff;
     opacity: 0;
     pointer-events: none;
+    z-index: 100;
 
     -webkit-transition: all 0.25s ease-in-out;
     -khtml-transition: all 0.25s ease-in-out;
@@ -372,7 +373,6 @@ p {
     .landing-border.loaded {
         border-right: 25px solid #ffffff;
     }
-
 
     .navigation-container.mobile-only .navigation-list {
         background-color: #ffffff;
