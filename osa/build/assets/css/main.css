@@ -1,0 +1,27 @@
+
+.splash-wrapper {
+    width: 85%;
+    max-width: 535px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    -webkit-transition: all 0.25s ease-in-out;
+    -khtml-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.splash-wrapper div {
+    width: 100%;
+}
