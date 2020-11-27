@@ -1,3 +1,8 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
 
 .splash-wrapper {
     width: 85%;
@@ -24,4 +29,35 @@
 
 .splash-wrapper div {
     width: 100%;
+}
+
+
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-list {
+    padding: 15px 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    display: table;
+}
+
+.navigation-list ul {
+    display: flex;
+}
+
+.navigation-list ul li {
+    flex: 1;
+    padding: 0 10px;
+    list-style: none;
+    color: #000000;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
 }

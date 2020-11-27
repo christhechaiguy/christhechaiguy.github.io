@@ -12,7 +12,7 @@ $(function() {
 
     setTimeout(function() {
         $('.splash-wrapper').css({'opacity':'0'});
-    }, 3000)
+    }, 3500)
 
 
 
