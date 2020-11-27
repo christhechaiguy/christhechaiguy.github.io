@@ -1,3 +1,6 @@
+
+
+
 $(function() {
 
     //lottie declaration
@@ -10,14 +13,15 @@ $(function() {
         path: 'assets/lottie/osa-splash.json' // the path to the animation json
     });
 
-    setTimeout(function() {
-        $('.splash-wrapper').css({'opacity':'0'});
-    }, 3500)
-
-
-
-
 
     
 });
 
+
+$( window ).on( "load", function() {
+
+    setTimeout(function() {
+        $('.splash-wrapper').css({'opacity':'0'});
+    }, 3000)
+
+});
