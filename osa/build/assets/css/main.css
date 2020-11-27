@@ -211,7 +211,11 @@ img {
     }
 
     .landing-image {
-        width: calc(100% - 135px);
+        width: 100%;
+    }
+
+    .landing-border.loaded {
+        border-right: 25px solid #ffffff;
     }
 
 }
