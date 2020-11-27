@@ -42,15 +42,19 @@ html, body {
 }
 
 .navigation-list {
-    padding: 15px 0;
-    margin: 0 auto;
     position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     top: 15px;
-    display: table;
+    display: block;
+    width: 90%;
 }
 
 .navigation-list ul {
     display: flex;
+    padding: 0;
 }
 
 .navigation-list ul li {
@@ -58,6 +62,7 @@ html, body {
     padding: 0 10px;
     list-style: none;
     color: #000000;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 16px;
 }
