@@ -15,5 +15,30 @@ $(function() {
             $mobileMenuToggled = false;
         }
     });
+    
 
 });
+
+
+
+function animatedScroll() {
+    var scrolledY = $(window).scrollTop();
+
+    if ( $(window).width() >= 740 ) {
+
+        if (scrolledY > 55) {
+            $(".side-panel #logo").addClass("scrolled");
+            $(".menu-toggle").addClass("scrolled");
+        } else {
+            $(".side-panel #logo").removeClass("scrolled");
+            $(".menu-toggle").removeClass("scrolled");
+        }
+        
+    }
+    
+};
+
+$(window).bind('scroll',function(e){
+    animatedScroll();
+});
+
