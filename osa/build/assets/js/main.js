@@ -24,8 +24,6 @@ $(function() {
 function animatedScroll() {
     var scrolledY = $(window).scrollTop();
 
-    if ( $(window).width() >= 740 ) {
-
         if (scrolledY > 55) {
             $(".side-panel #logo").addClass("scrolled");
             $(".menu-toggle").addClass("scrolled");
@@ -33,12 +31,14 @@ function animatedScroll() {
             $(".side-panel #logo").removeClass("scrolled");
             $(".menu-toggle").removeClass("scrolled");
         }
-        
-    }
     
 };
 
 $(window).bind('scroll',function(e){
-    animatedScroll();
+
+    if ( $(window).width() <= 740 ) {
+        animatedScroll();
+    }
+
 });
 
