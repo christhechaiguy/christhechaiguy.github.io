@@ -275,11 +275,11 @@ body.home .landing-image {
 }
 
 .menu-toggle.scrolled {
-    -webkit-transform: scale(0.75);
-    -khtml-transform: scale(0.75);
-    -moz-transform: scale(0.75);
-    -ms-transform: scale(0.75);
-    transform: scale(0.75);
+    -webkit-transform: scale(0.84);
+    -khtml-transform: scale(0.84);
+    -moz-transform: scale(0.84);
+    -ms-transform: scale(0.84);
+    transform: scale(0.84);
 
     -webkit-transform-origin: bottom right;
     -khtml-transform-origin: bottom right;
@@ -454,11 +454,11 @@ body.home .landing-image {
     }
 
     .side-panel.scrolled {
-        -webkit-transform: scale(0.75);
-        -khtml-transform: scale(0.75);
-        -moz-transform: scale(0.75);
-        -ms-transform: scale(0.75);
-        transform: scale(0.75);
+        -webkit-transform: scale(0.84);
+        -khtml-transform: scale(0.84);
+        -moz-transform: scale(0.84);
+        -ms-transform: scale(0.84);
+        transform: scale(0.84);
     
         -webkit-transform-origin: top right;
         -khtml-transform-origin: top right;
