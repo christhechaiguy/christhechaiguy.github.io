@@ -43,6 +43,11 @@ ol li {
     font-family: 'Roboto', sans-serif;
 }
 
+ul li,
+ol li {
+    padding: 5px 0;
+}
+
 .flex {
     display: flex;
 }
@@ -63,6 +68,7 @@ ol li {
 
 .video-wrapper iframe {
     position: absolute;
+    width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -449,6 +455,12 @@ body.home .landing-image {
     padding-bottom: 85px;
     width: calc(100% - 200px);
 }
+
+
+.content-container .content-inner {
+    width: 100%;
+    max-width: 900px;
+} 
 
 .content-container p {
     font-size: 1.125rem;
