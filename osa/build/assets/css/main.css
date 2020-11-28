@@ -124,6 +124,12 @@ p {
 .side-panel #logo {
     width: 100%;
     max-width: 155px;
+
+    -webkit-transition: transform 0.15s ease-in-out;
+    -khtml-transition: transform 0.15s ease-in-out;
+    -moz-transition: transform 0.15s ease-in-out;
+    -ms-transition: transform 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out;
 }
 
 .navigation-list {
@@ -254,6 +260,12 @@ body.home .landing-image {
     position: relative;
     width: 40px;
     height: 30px;
+
+    -webkit-transition: transform 0.15s ease-in-out;
+    -khtml-transition: transform 0.15s ease-in-out;
+    -moz-transition: transform 0.15s ease-in-out;
+    -ms-transition: transform 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out;
 }
 
 .menu-toggle.scrolled .menu-icon {
