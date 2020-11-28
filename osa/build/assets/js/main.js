@@ -25,10 +25,10 @@ function animatedScroll() {
     var scrolledY = $(window).scrollTop();
 
         if (scrolledY > 55) {
-            $(".side-panel #logo").addClass("scrolled");
+            $(".side-panel").addClass("scrolled");
             $(".menu-toggle").addClass("scrolled");
         } else {
-            $(".side-panel #logo").removeClass("scrolled");
+            $(".side-panel").removeClass("scrolled");
             $(".menu-toggle").removeClass("scrolled");
         }
     

@@ -254,12 +254,6 @@ body.home .landing-image {
     right: 0;
     cursor: pointer;
     z-index: 101;   
-}
-
-.menu-toggle .menu-icon {
-    position: relative;
-    width: 40px;
-    height: 30px;
 
     -webkit-transform: scale(1);
     -khtml-transform: scale(1);
@@ -280,7 +274,7 @@ body.home .landing-image {
     transition: transform 0.15s ease-in-out;
 }
 
-.menu-toggle.scrolled .menu-icon {
+.menu-toggle.scrolled {
     -webkit-transform: scale(0.75);
     -khtml-transform: scale(0.75);
     -moz-transform: scale(0.75);
@@ -292,6 +286,12 @@ body.home .landing-image {
     -moz-transform-origin: bottom right;
     -ms-transform-origin: bottom right;
     transform-origin: bottom right;
+}
+
+.menu-toggle .menu-icon {
+    position: relative;
+    width: 40px;
+    height: 30px;
 }
 
 .menu-toggle .menu-icon span {
@@ -433,11 +433,6 @@ body.home .landing-image {
 
     .side-panel {
         max-width: 135px;
-    }
-
-    .side-panel #logo {
-        width: 100%;
-        max-width: 85px;
 
         -webkit-transform: scale(1);
         -khtml-transform: scale(1);
@@ -445,11 +440,11 @@ body.home .landing-image {
         -ms-transform: scale(1);
         transform: scale(1);
     
-        -webkit-transform-origin: bottom right;
-        -khtml-transform-origin: bottom right;
-        -moz-transform-origin: bottom right;
-        -ms-transform-origin: bottom right;
-        transform-origin: bottom right;
+        -webkit-transform-origin: top right;
+        -khtml-transform-origin: top right;
+        -moz-transform-origin: top right;
+        -ms-transform-origin: top right;
+        transform-origin: top right;
 
         -webkit-transition: transform 0.15s ease-in-out;
         -khtml-transition: transform 0.15s ease-in-out;
@@ -458,7 +453,7 @@ body.home .landing-image {
         transition: transform 0.15s ease-in-out;
     }
 
-    .side-panel #logo.scrolled {
+    .side-panel.scrolled {
         -webkit-transform: scale(0.75);
         -khtml-transform: scale(0.75);
         -moz-transform: scale(0.75);
@@ -471,6 +466,10 @@ body.home .landing-image {
         -ms-transform-origin: top right;
         transform-origin: top right;
     }
+
+    .side-panel #logo {
+        width: 100%;
+        max-width: 85px;
     }
 
     .landing-image {
