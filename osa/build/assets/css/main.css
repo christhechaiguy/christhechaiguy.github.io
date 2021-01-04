@@ -613,4 +613,8 @@ body.home .landing-image {
         padding: 5px 10px;
     }
 
+    .navigation-list ul li.active ul {
+        padding: 0;
+    }
+
 }
