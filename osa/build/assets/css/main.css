@@ -514,10 +514,19 @@ body.home .landing-image {
     max-width: 900px;
 } 
 
-.content-container p {
+.content-container p,
+.content-container ul li,
+.content-container ol li {
     font-size: 1.125rem;
     line-height: 1.55;
     opacity: 0.85;
+}
+
+.content-container p a,
+.content-container li a,
+.content-container .default-button {
+    padding: 0 10px;
+    border: 2px solid #000000;
 }
 
 
