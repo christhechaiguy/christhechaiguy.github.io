@@ -603,6 +603,11 @@ body.home .landing-image {
         padding: 5px 0;
     }
 
+    .navigation-container.mobile-only .navigation-list ul li:not(.active) ul {
+        margin: 0;
+        padding: 0;
+    }
+
     .navigation-container.mobile-only .navigation-list ul li.active a,
     .navigation-container.mobile-only .navigation-list ul li a:hover,
     .navigation-container.mobile-only .navigation-list ul li a:active,
