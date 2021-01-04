@@ -623,7 +623,7 @@ body.home .landing-image {
     }
 
     .navigation-list ul li.active ul {
-        padding: 0;
+        padding: 0 !important;
     }
 
 }
