@@ -260,10 +260,7 @@ ol li {
     border-bottom: 2px solid transparent;
 }
 
-.navigation-list ul li.active ul li a,
-.navigation-list ul li.active:hover ul li a,
-.navigation-list ul li.active:active ul li a,
-.navigation-list ul li.active:focus ul li a {
+.navigation-list ul li.active ul li a {
     border-color: transparent;
 
     -webkit-transition: all 0.15s ease-in-out;
