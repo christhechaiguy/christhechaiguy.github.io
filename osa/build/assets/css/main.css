@@ -536,11 +536,11 @@ body.home .landing-image {
     color: #000000;
     overflow: hidden;
 
-    -webkit-transition: transform 0.15s ease-in-out;
-    -khtml-transition: transform 0.15s ease-in-out;
-    -moz-transition: transform 0.15s ease-in-out;
-    -ms-transition: transform 0.15s ease-in-out;
-    transition: transform 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 .content-container p a,
@@ -572,11 +572,11 @@ body.home .landing-image {
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
 
-    -webkit-transition: transform 0.15s ease-in-out;
-    -khtml-transition: transform 0.15s ease-in-out;
-    -moz-transition: transform 0.15s ease-in-out;
-    -ms-transition: transform 0.15s ease-in-out;
-    transition: transform 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 .content-container p a:hover,
@@ -592,11 +592,11 @@ body.home .landing-image {
 .content-container .default-button:focus {
     color: #ffffff;
 
-    -webkit-transition: transform 0.15s ease-in-out;
-    -khtml-transition: transform 0.15s ease-in-out;
-    -moz-transition: transform 0.15s ease-in-out;
-    -ms-transition: transform 0.15s ease-in-out;
-    transition: transform 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 .content-container p a:hover:before,
@@ -616,11 +616,11 @@ body.home .landing-image {
     -ms-transform: translateX(0);
     transform: translateX(0);
 
-    -webkit-transition: transform 0.15s ease-in-out;
-    -khtml-transition: transform 0.15s ease-in-out;
-    -moz-transition: transform 0.15s ease-in-out;
-    -ms-transition: transform 0.15s ease-in-out;
-    transition: transform 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 
