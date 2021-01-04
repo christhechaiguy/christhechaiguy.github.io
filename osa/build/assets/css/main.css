@@ -558,12 +558,13 @@ body.home .landing-image {
 .content-container .default-button:before {
     content: '';
     position: absolute;
-    display: block;
+    display: inline-flex;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     background-color: #000000;
+    z-index: -1;
 
     -webkit-transform: translateX(-100%);
     -khtml-transform: translateX(-100%);
