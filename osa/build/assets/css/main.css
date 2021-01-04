@@ -261,7 +261,7 @@ ol li {
 }
 
 .navigation-list ul li.active ul li a {
-    border-color: transparent;
+    border-color: transparent !important;
 
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
@@ -274,7 +274,7 @@ ol li {
 .navigation-list ul li ul li a:hover,
 .navigation-list ul li ul li a:active,
 .navigation-list ul li ul li a:focus  {
-    border-color: #000000;
+    border-color: #000000 !important;
 
     -webkit-transition: all 0.15s ease-in-out;
     -khtml-transition: all 0.15s ease-in-out;
