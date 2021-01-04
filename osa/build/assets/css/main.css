@@ -70,6 +70,7 @@ ol li {
 .video-wrapper iframe {
     position: absolute;
     width: 100%;
+    height: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
