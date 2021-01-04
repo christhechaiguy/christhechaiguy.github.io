@@ -257,7 +257,7 @@ ol li {
     border-bottom: 2px solid transparent;
 }
 
-.navigation-list ul li.active ul li a,
+.navigation-list ul li.active ul li.active a,
 .navigation-list ul li ul li a:hover,
 .navigation-list ul li ul li a:active,
 .navigation-list ul li ul li a:focus  {
