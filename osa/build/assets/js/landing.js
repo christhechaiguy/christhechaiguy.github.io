@@ -28,7 +28,7 @@ $( window ).on( "load", function() {
 
     setTimeout(function() {
         var duration = 150;
-        $('.navigation-list ul li').each(function(i) {
+        $('.navigation-list ul > li').each(function(i) {
             var $item = $(this);
             setTimeout(function() {
             $item.css({
