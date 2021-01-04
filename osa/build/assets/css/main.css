@@ -510,6 +510,7 @@ body.home .landing-image {
 }
 
 
+
 .content-container .content-inner {
     width: 100%;
     max-width: 900px;
@@ -528,8 +529,9 @@ body.home .landing-image {
 .content-container li a,
 .content-container .default-button {
     text-decoration: none;
+    position: relative;
+    display: inline-block;
     white-space: nowrap;
-    padding: 5px 10px;
     border: 2px solid #000000;
     color: #000000;
     overflow: hidden;
@@ -539,6 +541,16 @@ body.home .landing-image {
     -moz-transition: transform 0.15s ease-in-out;
     -ms-transition: transform 0.15s ease-in-out;
     transition: transform 0.15s ease-in-out;
+}
+
+.content-container p a,
+.content-container li a {
+    padding: 0 10px;
+}
+
+.content-container .default-button {
+    padding: 5px 10px;
+    margin: 15px 0;
 }
 
 .content-container p a:before,
