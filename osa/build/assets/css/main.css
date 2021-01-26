@@ -686,11 +686,10 @@ body.home .landing-image {
 .ottpark-list .content-inner p a {
     white-space: normal;
     display: inline-block;
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.35;
     margin: 0 0 5px 0;
 }
-
 
 @media (max-width: 740px) {
 
