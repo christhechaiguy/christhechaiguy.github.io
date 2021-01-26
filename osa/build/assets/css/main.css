@@ -27,6 +27,7 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    letter-spacing: -0.1rem;
 }
 
 h3 {
@@ -522,8 +523,9 @@ body.home .landing-image {
 .content-container ol li,
 .default-button {
     font-size: 1.125rem;
-    line-height: 1.55;
+    line-height: 1.85;
     opacity: 0.85;
+    letter-spacing: 0.01rem;
 }
 
 .content-container p a,
