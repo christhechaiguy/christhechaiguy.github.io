@@ -704,7 +704,9 @@ body.home .landing-image {
 }
 
 .skatepark-inline img {
-    
+    max-width: 800px;
+    margin: 10px auto;
+    display: block;
 }
 
 @media (max-width: 740px) {
