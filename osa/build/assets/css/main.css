@@ -528,8 +528,8 @@ body.home .landing-image {
     letter-spacing: 0.01rem;
 }
 
-.content-container p a,
-.content-container li a,
+/* .content-container p a,
+.content-container li a, */
 .content-container .default-button {
     text-decoration: none;
     position: relative;
@@ -546,10 +546,59 @@ body.home .landing-image {
     transition: all 0.15s ease-in-out;
 }
 
+
+
 .content-container p a,
 .content-container li a {
-    padding: 0 10px;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    white-space: nowrap;
+    color: #000000;
+    overflow: hidden;
+
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
+
+
+.content-container p a:after,
+.content-container li a:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    width: 0;
+    background-color: #000000;
+
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.content-container p a:hover:after,
+.content-container li a:hover:after {
+    width: 100%;
+
+    -webkit-transition: all 0.15s ease-in-out;
+    -khtml-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+/* .content-container p a,
+.content-container li a {
+    padding: 0 10px;
+} */
 
 .content-container .default-button {
     padding: 5px 10px;
