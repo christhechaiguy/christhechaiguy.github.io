@@ -675,6 +675,14 @@ body.home .landing-image {
     transition: all 0.15s ease-in-out;
 }
 
+.ottpark-list p a {
+    white-space: normal;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 0 0 5px 0;
+}
+
 
 @media (max-width: 740px) {
 
