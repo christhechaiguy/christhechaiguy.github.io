@@ -41,7 +41,8 @@ h4 {
 p,
 ul li,
 ol li,
-.default-button {
+.default-button,
+.fancybox-caption__body {
     font-family: 'Roboto', sans-serif;
 }
 
