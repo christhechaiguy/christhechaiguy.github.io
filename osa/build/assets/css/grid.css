@@ -1,5 +1,11 @@
 /* christhechaiguy */
 
+.clear {
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
 .grid {
     position: relative;
     width: 100%;
