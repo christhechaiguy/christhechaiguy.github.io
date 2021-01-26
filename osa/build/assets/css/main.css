@@ -708,6 +708,10 @@ body.home .landing-image {
     text-align: center;
 }
 
+.skatepark-inline p {
+    margin-bottom: 35px;
+}
+
 .skatepark-inline img {
     max-width: 800px;
     margin: 15px auto;
