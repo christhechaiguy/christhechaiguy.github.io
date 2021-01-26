@@ -675,16 +675,20 @@ body.home .landing-image {
     transition: all 0.15s ease-in-out;
 }
 
-.ottpark-list p a {
-    white-space: normal;
-    display: block;
-    font-size: 1rem;
-    line-height: 1.35;
+.ottpark-list .content-inner {
+    max-width: none;
+}
+
+.ottpark-list .content-inner p {
     margin: 0 0 5px 0;
 }
 
-.ottpark-list .content-inner {
-    max-width: none;
+.ottpark-list .content-inner p a {
+    white-space: normal;
+    display: inline-block;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    margin: 0 0 5px 0;
 }
 
 
