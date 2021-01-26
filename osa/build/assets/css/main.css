@@ -676,6 +676,10 @@ body.home .landing-image {
     transition: all 0.15s ease-in-out;
 }
 
+.ottpark-list {
+    padding-bottom: 100px;
+}
+
 .ottpark-list .content-inner {
     max-width: none;
 }
