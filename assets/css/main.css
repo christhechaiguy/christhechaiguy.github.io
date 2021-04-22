@@ -79,3 +79,13 @@ body {
     font-size: 16px;
     line-height: 1;
 }
+
+@media (max-width: 840px) {
+
+    .email-tag {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+
+}
