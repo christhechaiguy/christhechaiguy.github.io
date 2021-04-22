@@ -80,7 +80,7 @@ body {
     line-height: 1;
 }
 
-@media (max-width: 840px) {
+/* @media (max-width: 840px) {
 
     .email-tag {
         margin: 0 auto;
@@ -88,4 +88,4 @@ body {
         right: 0;
     }
 
-}
+} */
