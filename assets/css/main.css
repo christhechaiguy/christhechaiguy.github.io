@@ -66,7 +66,7 @@ body {
 
 .email-tag {
     padding: 10px 25px;
-    background-color: #ffffff;
+    background-color: #252a32;
     position: fixed;
     top: 0;
     right: 0;
@@ -75,7 +75,7 @@ body {
 }
 
 .email-tag p {
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
     line-height: 1;
 }
