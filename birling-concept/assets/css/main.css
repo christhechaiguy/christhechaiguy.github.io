@@ -293,7 +293,7 @@ body {
 
 .featured-products .grid-item {
     height: 0;
-    padding-bottom: 50%;
+    padding-bottom: 36%;
     position: relative;
     display: block;
     background-size: cover;
