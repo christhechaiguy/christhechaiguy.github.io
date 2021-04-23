@@ -1,0 +1,376 @@
+html
+body,
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body,
+body * {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+
+.limit-width {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.grid {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid .grid {
+    width: 100%;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+    position: relative;
+    height: 100%;
+}
+
+
+.grid-1 {
+	width: 8.33%;
+	width: calc( ( 100% / 12 ) * 1 - 1px );
+    float: left;
+}
+
+.grid-2 {
+	width: 16.67%;
+	width: calc( ( 100% / 12 ) * 2 - 1px );
+    float: left;
+}
+
+.grid-3 {
+    width: 25%;
+    float: left;
+}
+
+.grid-4 {
+	width: 33.33%;
+	width: calc( ( 100% / 12 ) * 4 - 1px );
+    float: left;
+}
+
+.grid-5 {
+	width: 41.67%;
+	width: calc( ( 100% / 12 ) * 5 - 1px );
+    float: left;
+}
+
+.grid-6 {
+    width: 50%;
+    float: left;
+}
+
+.grid-7 {
+	width: 58.33%;
+	width: calc( ( 100% / 12 ) * 7 - 1px );
+    float: left;
+}
+
+.grid-8 {
+	width: 66.67%;
+	width: calc( ( 100% / 12 ) * 8 - 1px );
+    float: left;
+}
+
+.grid-9 {
+    width: 75%;
+    float: left;
+}
+
+.grid-10 {
+	width: 83.33%;
+	width: calc( ( 100% / 12 ) * 10 - 1px );
+    float: left;
+}
+
+.grid-11 {
+	width: 91.67%;
+	width: calc( ( 100% / 12 ) * 11 - 1px );
+    float: left;
+}
+
+.grid-12 {
+    width: 100%;
+}
+
+.clear {
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+
+
+
+@media (max-width: 840px) {
+
+    .grid {
+        width: 100%;
+    }
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5,
+    .grid-6,
+    .grid-7,
+    .grid-8,
+    .grid-9,
+    .grid-10,
+    .grid-11,
+    .grid-12 {
+        width: 100%;
+        float: none;
+    }
+
+}
+
+
+
+.sticky-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.sticky-section .main-logo {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 65%;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navigation-wrapper ul.navigation {
+    position: fixed;
+    display: block;
+    left: 55px;
+    margin: 0 auto;
+    z-index: 100;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+.navigation-wrapper:before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    z-index: 10;
+    pointer-events: none;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+}
+
+.navigation-wrapper ul.navigation li,
+.navigation-wrapper ul.navigation li * {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+
+
+.header-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.video-wrapper {
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    display: block;
+}
+
+
+.video-wrapper video,
+.video-wrapper iframe {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main-video {
+    width: 100%;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+
+.featured-products .grid-item {
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.info-section {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.info-section p {
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.info-section .email {
+    border-bottom: 2px solid #ffffff;
+    padding: 20px 0;
+}
+
+.info-section input[type="email"] {
+    appearance: none;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 80%;
+    outline: none;
+    float: left;
+}
+
+.info-section input[type="submit"] {
+    appearance: none;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    float: right;
+}
+
+.info-section img {
+    max-width: 365px;
+    display: block;
+    float: right;
+}
+
+.footer-section {
+    border-top: 1px solid #ffffff;
+    background-color: #000000;
+    padding: 25px 0;
+}
+
+.footer-section ul li {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 35px;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-section ul li * {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-section ul li:first-of-type {
+    padding-left: 0;
+}
+
+.footer-section ul li:last-of-type {
+    padding-right: 0;
+}
