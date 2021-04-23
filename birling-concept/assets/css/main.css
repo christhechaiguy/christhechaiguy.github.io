@@ -355,7 +355,7 @@ body {
     color: #ffffff;
     cursor: pointer;
     padding: 0 35px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1;
     text-decoration: none;
     display: inline-block;
@@ -363,7 +363,6 @@ body {
 
 .footer-section ul li * {
     color: #ffffff;
-    font-size: 18px;
     text-decoration: none;
 }
 
