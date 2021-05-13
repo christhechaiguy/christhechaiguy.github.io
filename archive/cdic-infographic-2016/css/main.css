@@ -67,6 +67,8 @@ body,html{
 }
 
 .panel-cards {
+    position: relative;
+    overflow: hidden;
     width: 990px;
     padding-top: 50px;
     padding-bottom: 50px;
