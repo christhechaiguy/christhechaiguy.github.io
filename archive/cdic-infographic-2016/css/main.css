@@ -8,26 +8,26 @@
 
 @font-face {
     font-family: 'NewsGothicBT-Roman', sans-serif;
-    src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.eot');
-    src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.eot?#iefix') format('embedded-opentype'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.woff2') format('woff2'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.woff') format('woff'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.ttf') format('truetype');
+    src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.eot');
+    src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.eot?#iefix') format('embedded-opentype'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.woff2') format('woff2'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.woff') format('woff'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_0_0.ttf') format('truetype');
 }
 
-/*@font-face {font-family: 'NewsGothicBT-Italic';src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.eot');src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.eot?#iefix') format('embedded-opentype'),url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.woff2') format('woff2'),url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.woff') format('woff'),url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'NewsGothicBT-Italic';src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.eot');src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.eot?#iefix') format('embedded-opentype'),url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.woff2') format('woff2'),url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.woff') format('woff'),url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_1_0.ttf') format('truetype');}*/
 
 
 @font-face {
     font-family: 'NewsGothicBT-Bold', sans-serif;;
-    src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.eot');
-    src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.eot?#iefix') format('embedded-opentype'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.woff2') format('woff2'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.woff') format('woff'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.ttf') format('truetype');
+    src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.eot');
+    src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.eot?#iefix') format('embedded-opentype'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.woff2') format('woff2'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.woff') format('woff'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_2_0.ttf') format('truetype');
 }
 
-/*@font-face {font-family: 'NewsGothicBT-BoldItalic';src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.eot');src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.eot?#iefix') format('embedded-opentype'),url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.woff2') format('woff2'),url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.woff') format('woff'),url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'NewsGothicBT-BoldItalic';src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.eot');src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.eot?#iefix') format('embedded-opentype'),url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.woff2') format('woff2'),url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.woff') format('woff'),url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_3_0.ttf') format('truetype');}*/
 
 
 @font-face {
     font-family: 'NewsGothicBT-Light';
-    src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.eot');
-    src: url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.eot?#iefix') format('embedded-opentype'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.woff2') format('woff2'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.woff') format('woff'), url('http://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.ttf') format('truetype');
+    src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.eot');
+    src: url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.eot?#iefix') format('embedded-opentype'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.woff2') format('woff2'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.woff') format('woff'), url('https://www.cdic.ca/Style%20Library/fonts/webfonts/2E01DC_4_0.ttf') format('truetype');
 }
 
 
